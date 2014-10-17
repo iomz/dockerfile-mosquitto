@@ -15,7 +15,7 @@ RUN \
 	cd /usr/local/src ;\
 	wget http://mosquitto.org/files/source/mosquitto-1.3.5.tar.gz ;\
 	tar xvzf ./mosquitto-1.3.5.tar.gz ;\
-	cd /usr/local/src/mosquitto-1.2.3 ;\
+	cd /usr/local/src/mosquitto-1.3.5 ;\
 	make ;\
 	make install
 
